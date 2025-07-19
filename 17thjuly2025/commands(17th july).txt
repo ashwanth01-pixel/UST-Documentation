@@ -1,0 +1,213 @@
+git config --list
+cd desktop
+touch n.txt
+vim touch n.txt
+vim touch n.txt
+vim touch n.txt
+vim touch n.txt
+vim touch n.txt
+vim touch n.txt
+vim touch n.txt
+cd desktop
+touch m.txt
+vim m.txt
+nano m.txt
+nano m.txt
+vim m.txt
+cd desktop
+touch m.txt
+vim m.txt
+git init
+git branch
+git status
+git add .
+rm -rf .git
+cd m.txt
+git init
+git add m.txt
+git commit -m "first commit"
+vim m.txt
+git diff
+git status
+git log --oneline
+git branch
+git log
+git commit -m "second commit"
+git lo
+git log
+git commit -am "second"
+git log
+git reset --hard HEAD~1
+git log
+git restore m.txt
+git log
+ls -a
+ls .git
+ls index
+ls .git index
+cal
+cal 2024
+cal 12 2024
+bash
+clear
+cd desktop
+touch file.sh
+vim file.sh
+bash file.sh
+vi file.sh
+vim file.sh
+./file.sh
+ls-l
+ls -l
+chmode u+x file.sh
+chmod u+x file.sh
+./file.sh
+vim file.sh
+./file.sh
+./file.sh
+cat file.sh
+echo ram >> file.sh
+vat file.sh
+cat file.sh
+echo "ram" >> file.sh
+cat file.sh
+vim file.sh
+vim file.sh
+./ file.sh ashwanth
+chmod u+x file.sh
+./ file.sh ashwanth
+./file.sh ashwanth
+vim file.sh
+./ file.sh ashwanth
+./file.sh ashwanth
+vim file.sh
+./file.sh ashwanth
+bash --version\
+
+brew install bash\
+
+brew --prefix bash\
+
+cd desktop
+chmod u+x file.sh
+./ file.sh
+./file.sh ashwanth
+bash --version
+vim file.sh
+./file.sh ashwanth
+vim file.sh
+cd downloads
+cat ashwanthram.pem
+openssl rsa -in Ashwanthram.pem -check\
+
+openssl x509 -in Ashwanthram.pem -text -noout\
+
+chmod 400 Ashwanthram.pem\
+ssh -i Ashwanthram.pem ec2-user@<public-ip>\
+
+clear
+cd ..
+cd downloads
+ls -ltr
+chmod 400 ashwanthram.pem
+ls -ltr ashwanthram.pem
+ssh -i ashwanthram.pem ubuntu@34.229.153.136
+cd ..
+cd desktop
+touch file.txt
+vim file.txt
+cat file.txt
+whoamiu
+whoami
+vim touch.txt
+vim file.txt
+vim k.sh
+git init
+git add file.txt
+git remote add origin https://github.com/ashwanth01-pixel/github10.git
+git push -u origin
+git push -u origin master
+history
+history | grep "$(17 '+%2025-%7-%17')"\
+
+history | grep "$(date '+%2025-%7-%17')"\
+
+history | grep "$(date '+%2025-%7-%17')"\
+
+cd downloads
+chmod 400 ashwanthram.pem
+ssh -i ashwanthram.pem ubuntu@3.148.245.11
+ssh -i ashwanthram.pem ubuntu@3.148.245.11
+cd desktop
+my project
+cd myproject
+git init
+fit add .
+git add .
+git commit -m 'in'
+git remote add origin main
+git push -u origin main
+git remote add origin main https://github.com/ashwanth01-pixel/github10.git
+git push -u origin main
+git remote remove origin\
+
+git remote add origin https://github.com/ashwanth01-pixel/github10.git\
+
+git branch\
+
+git push -u origin master\
+
+git push -u origin master\
+
+git remote remove origin\
+
+git remote add origin main https://github.com/ashwanth01-pixel/github1010.git
+git push -u origin master\
+
+git remote remove origin\
+
+git remote add origin https://github.com/ashwanth01-pixel/github1010.git\
+
+git push -u origin master\
+
+git push -u origin master\
+
+git push -u origin master\
+
+git remote remove origin\
+
+git remote add origin https://github.com/ashwanth01-pixel/github1010.git\
+
+git push -u origin master\
+
+ssh-keygen -t ed25519 -C "ashwanth0110@gmail.com"\
+
+cd ..
+cd..
+cd..
+cd ..
+cd ..
+cd ashwanth
+mkdir github
+mkdir ssh
+ssh-keygen -t ed25519 -C "ashwanth0110@gmail.com"\
+
+mkdir -p /Users/ashwanth/github/ssh\
+
+ssh-keygen -t ed25519 -C "ashwanth0110@gmail.com" -f /Users/ashwanth/github/ssh/id_ed25519\
+
+eval "$(ssh-agent -s)"\
+ssh-add /Users/ashwanth/github/ssh/id_ed25519\
+
+cat /Users/ashwanth/github/ssh/id_ed25519.pub\
+
+cd ~/downloads/myproject   # or wherever your project is\
+git remote set-url origin git@github.com:ashwanth01-pixel/github1010.git\
+
+cd downloads
+cd myproject
+cd ..
+cd desktop
+cd myproject
+git remote set-url origin git@github.com:ashwanth01-pixel/github1010.git
+git push -u origin master\
