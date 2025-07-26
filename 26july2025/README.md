@@ -1,6 +1,9 @@
 CI-build and test
+
 CDELIVERY-deploy the app with manual accept
+
 CDEPLOY-deploy automatically
+
 Events -pull/push/fork/issues
          |
        workflows
