@@ -45,6 +45,42 @@ step 5
 
     created simple niginx file - ash-nginx.yaml with loadbalancer service
 
+    cat <<EOF > ash-nginx.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ash-nginx-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ash-nginx
+  template:
+    metadata:
+      labels:
+        app: ash-nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ash-nginx-service
+spec:
+  selector:
+    app: ash-nginx
+  type: LoadBalancer
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+EOF
+
+
     kubectl apply -f ash-nginx.yaml
 
     kubectl get pods
