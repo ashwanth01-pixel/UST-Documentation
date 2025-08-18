@@ -23,6 +23,16 @@ kubeadm init
 > This sets up the Kubernetes control plane.
 
 ---
+setup kubeconfig file
+
+```bash
+mkdir -p $HOME/.kube
+
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+```
 
 ### 2. Check Node Status
 
